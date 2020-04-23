@@ -36,9 +36,6 @@ def safe_print(args):
     print(args)
     lock.release()
 
-def remove_dead_account(account):
-    pass
-
 class SendComment():
     def __init__(self, api_key="", email="", password="", message="", scraped_posts=[], proxy=""):
         self.api_key = api_key
